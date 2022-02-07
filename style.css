@@ -2,11 +2,17 @@
     margin: 0;
 }
 
-header{
+/* header{
     height: 128px;
     border: 7px dashed red;
     padding: 16px;
 
+
+} */
+
+main{
+    color:rosybrown;
+    padding: 8px ;
 
     background-color: rgb(40, 150, 200);
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvDtbSM5tNbRyzJqtqGPrqLjiPOZUhsibKeQ&usqp=CAU);
@@ -15,4 +21,8 @@ header{
     background-size: contain;
     background-origin: content-box;
     background-clip: content-box;
+    background-attachment: fixed;
+
+    background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 0, 0, 0.2)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvDtbSM5tNbRyzJqtqGPrqLjiPOZUhsibKeQ&usqp=CAU) no-repeat right top / 50px border-box content-box fixed;
+
 }
