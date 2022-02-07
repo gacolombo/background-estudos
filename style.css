@@ -3,7 +3,8 @@
 }
 
 header{
-    height: 100px;
+    height: 128px;
     border: 7px dashed red;
     background-color: rgb(40, 150, 200);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvDtbSM5tNbRyzJqtqGPrqLjiPOZUhsibKeQ&usqp=CAU);
 }
